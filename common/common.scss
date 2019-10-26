@@ -79,8 +79,19 @@ div.timeline-handle {
 
 .topic-body {
     border-bottom: 1px solid;
-    border-color: rgb(159,198,209);
+    border-color: rgb(159,198,209) !important;
 }
+
+.onebox {
+   border: 5px solid rgb(159,198,209) !important;
+}
+
+.onebox .source a {
+    color: #303030 !important;
+}
+
+
+
 /* NOTE: Uncomment the below to hide the lock icons on the categories */
  /*
 .category-text-title svg.fa.d-icon.d-icon-lock.svg-icon.svg-string, .badge-category.clear-badge.restricted svg.fa.d-icon.d-icon-lock.svg-icon.svg-string {
