@@ -1,0 +1,89 @@
+.user-main .about .details img.avatar {
+    margin-left: 7px;
+}
+.user-card-avatar .avatar-flair, .user-profile-avatar .avatar-flair {
+    background-size: 136px 160px;
+    width: 150px;
+    height: 160px;
+    background-position: center;
+}
+.user-main .about .details .user-profile-avatar .avatar-flair {
+    bottom: -10px;
+    right: 6px;
+}
+
+.topic-avatar {
+  padding-bottom: 10px;
+}
+.topic-avatar .avatar-flair, .avatar-flair-preview .avatar-flair, .collapsed-info .user-profile-avatar .avatar-flair {
+  background-size: 51px 70px;
+  width: 51px;
+  height: 80px;
+  background-position-y: 12px;
+}
+
+.d-header-icons .d-icon {
+    color: #000000;
+}
+
+div.category-description {
+    color: #000000;
+}
+
+span.relative-date {
+    color: #000000;
+}
+
+.list-cell, .table-heading, .category-list td, .category-list th {
+    color: #000000;
+}
+
+.topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
+    color: #262626;
+}
+
+.topic-list-item.unseen-topic, .topic-list-item.new-posts {
+    color: #000000;
+    font-weight: bold;
+}
+
+.topic-list th {
+    color: #000000;
+}
+
+.topic-excerpt {
+    color: #303040 !important;
+    font-weight: normal;
+}
+
+span.category-name {
+    color: #323232 !important;
+}
+
+.discourse-tag.bullet {
+    color: #202020;
+}
+
+td span.number, span.d-label, .timeline-scroller-content, .timeline-ago, .timeline-data-wrapper {
+    color: #000000 !important;
+}
+
+div.timeline-handle {
+    background-color: #008080 !important;
+}
+
+.timeline-container .topic-timeline .timeline-scrollarea {
+    border-color: #000000 !important;
+}
+
+
+.topic-body {
+    border-bottom: 1px solid;
+    border-color: rgb(159,198,209);
+}
+/* NOTE: Uncomment the below to hide the lock icons on the categories */
+ /*
+.category-text-title svg.fa.d-icon.d-icon-lock.svg-icon.svg-string, .badge-category.clear-badge.restricted svg.fa.d-icon.d-icon-lock.svg-icon.svg-string {
+    display: none;
+}
+*/
