@@ -42,12 +42,11 @@ span.relative-date {
 }
 
 .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
-    color: #686868;
+    color: #686868 !important;
 }
 
 .topic-list-item.unseen-topic, .topic-list-item.new-posts {
     color: #000000;
-    font-weight: bold;
 }
 
 .topic-list th {
