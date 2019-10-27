@@ -3,8 +3,9 @@
 }
 .user-card-avatar .avatar-flair, .user-profile-avatar .avatar-flair {
     background-size: 136px 160px;
-    width: 150px;
+/*    width: 150px;
     height: 160px;
+*/
     background-position: center;
 }
 .user-main .about .details .user-profile-avatar .avatar-flair {
@@ -17,8 +18,10 @@
 }
 .topic-avatar .avatar-flair, .avatar-flair-preview .avatar-flair, .collapsed-info .user-profile-avatar .avatar-flair {
   background-size: 51px 70px;
-  width: 51px;
+/*  width: 51px;
   height: 80px;
+*/
+
   background-position-y: 12px;
 }
 
