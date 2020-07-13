@@ -105,9 +105,9 @@ div.timeline-handle {
 color: #504c4c;
 }
 
-/* NOTE: Uncomment the below to hide the lock icons on the categories */
- /*
-.category-text-title svg.fa.d-icon.d-icon-lock.svg-icon.svg-string, .badge-category.clear-badge.restricted svg.fa.d-icon.d-icon-lock.svg-icon.svg-string {
+/* NOTE: This hides the locks on /categories page */
+ 
+div.category-text-title svg.fa.d-icon.d-icon-lock.svg-icon.svg-string, .badge-category.clear-badge.restricted svg.fa.d-icon.d-icon-lock.svg-icon.svg-string {
     display: none;
 }
-*/
+
